@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setuptools = "*"
+psutil = "*"
+wheel = "*"
+pygame = ">=1.9.6"
+opencv-python = "*"
+numpy = "*"
+gym = "<=0.21.0"
+absl-py = "*"
+gfootball = "*"
+tensorflow-gpu = "*"
+dm-sonnet = "==1.*"
+baselines = {git = "https://github.com/openai/baselines.git"}
+tensorflow-probability = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
